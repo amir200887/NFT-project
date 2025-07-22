@@ -1,0 +1,296 @@
+html {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    /* border: 1px solid #fff; */
+}
+
+:root {
+    --color_07101D: #07101D;
+    --color_FF3C00: #FF3C00;
+    --grad: linear-gradient(to right bottom, #07101D, #00D1FF);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: kalameh;
+    background-color: var(--color_07101D);
+
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../FONTS/KalamehWeb-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../FONTS/KalamehWeb-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../FONTS/KalamehWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../FONTS/KalamehWeb-Thin.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../FONTS/KalamehWeb\(FaNum\)-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../FONTS/KalamehWeb\(FaNum\)-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../FONTS/KalamehWeb\(FaNum\)-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: Gilroy_Bold;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../FONTS/Gilroy-Bold.woff') format('woff');
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#log {
+    background-color: var(--color_FF3C00);
+}
+
+.w_inher {
+    width: inherit !important;
+}
+
+#circ {
+    width: 300px;
+    height: 200px;
+    background: rgb(218, 93, 207);
+    top: 0px;
+    left: 83%;
+    filter: blur(150px);
+    -webkit-filter: blur(150px);
+    z-index: 0 !important;
+}
+
+#shegeft {
+    color: var(--color_FF3C00);
+}
+
+#world {
+    font-size: 45pt;
+}
+
+#path {
+    left: 31%;
+    top: 3%;
+}
+
+@media screen and (max-width:991px) {
+    #path {
+        left: 85%;
+        top: 25%;
+    }
+
+    /* #bl{
+        right:-100px;
+        top: 85%;
+        padding: 2rem !important;
+    } */
+
+
+
+}
+
+#scr {
+    bottom: -10%;
+    left: 0%;
+}
+
+#bl {
+    backdrop-filter: blur(5px);
+
+}
+
+#bl1 {
+    backdrop-filter: blur(5px);
+
+    bottom: 20%;
+    left: 11%;
+}
+
+input {
+    padding: 10px !important;
+    padding-right: 3.3rem !important;
+    border: 1px solid var(--color_FF3C00);
+    height: 70px !important;
+}
+
+#search {
+    z-index: 2 !important;
+    left: 95% !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+#moshavere {
+    background-image: linear-gradient(to right, #7011AD, #BC0505, #FC630F);
+    outline: none !important;
+
+}
+
+#wall {
+    background-image: linear-gradient(to right, #7011AD, #BC0505, #FC630F);
+
+}
+
+.wallet_box1 {
+    border: 5px solid #FC630F;
+    border-top: 5px solid rgba(250, 124, 7, 0.5);
+    border-left: 5px solid rgba(250, 124, 7, 0.2);
+}
+
+.wallet_box3 {
+    border: 5px solid #760AFF;
+    border-top: 5px solid rgba(24, 7, 250, 0.5);
+    border-left: 5px solid rgba(24, 7, 250, 0.2);
+
+
+}
+
+.wallet_box2 {
+    border: 5px solid #00D1FF;
+    border-top: 5px solid rgba(10, 202, 236, 0.5);
+    border-left: 5px solid rgba(10, 202, 236, 0.2);
+
+
+}
+
+.wallet_box4 {
+    border: 5px solid #FE007A;
+    border-top: 5px solid rgba(255, 0, 200, 0.5);
+    border-left: 5px solid rgba(252, 6, 198, 0.2);
+
+}
+
+.wallet_box5 {
+    border: 5px solid #FFBB0D;
+    border-top: 5px solid rgba(255, 196, 0, 0.5);
+    border-left: 5px solid rgba(255, 196, 0, 0.2);
+
+}
+
+#fastp {
+    background-image: linear-gradient(to right, #7011AD, #BC0505, #FC630F);
+
+}
+
+#main {
+    left: 22%;
+    top: 10%;
+}
+
+#time {
+    backdrop-filter: blur(6px) !important;
+    left: 10% !important;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+#heart {
+    backdrop-filter: blur(7px) !important;
+    right: 100%;
+}
+
+#speed {
+    bottom: 79%;
+    right: 13%;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(55px);
+
+}
+
+.n1 {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(55px);
+
+}
+
+.n2 {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(55px);
+
+}
+
+.n3 {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(55px);
+
+}
+
+#Negar {
+    border: 2px solid rgba(241, 236, 236, 0.2);
+}
+
+#email {
+    background-image: linear-gradient(to right, #ee19a7, #FC630F);
+    border: 10px solid rgba(255, 248, 248, 0.5) !important;
+
+
+
+}
+
+#diss {
+    background-image: linear-gradient(to right, #7011AD, #fa3838, #f5732d);
+
+}
+
+#circc {
+    width: 200px !important;
+    height: 150px;
+    background: rgba(206, 92, 252, 0.5);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    top: -2%;
+    right: -5%;
+    filter: blur(100px);
+    -webkit-filter: blur(100px);
+}
